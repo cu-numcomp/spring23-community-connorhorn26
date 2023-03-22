@@ -1,39 +1,38 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: c_lasso
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+This package implements a variety of different lasso regression techniques. Lasso regression is separate from other types of regression since it uses the L1 norm of the solution as an additional problem constraint that is supposed to be minimized. One interesting side affect of lasso regression is that it drives majority of the weights to 0, which acts as some form of dimension reduction, since the regression essentially removes the useless or unncessary weights. The primary audience of this package are the people who use regression, namely data scientists and machine learners. The lasso regression can also be modified to act as a classification problem instead of a regression, you only need to change the output values to 0 or 1.
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2022-03-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL |  https://github.com/Leo-Simpson/c-lasso  |
+| Main/documentation website |  https://joss.theoj.org/papers/10.21105/joss.02844  |
+| Year project was started |  2020 |
+| Number of contributors in the past year | 0 |
+| Number of contributors in the lifetime of the project | 2  |
+| Number of distinct affiliations | 2-5 |
+| Where do development discussions take place? |  github |
+| Typical number of emails/comments per week? | 0  |
+| Typical number of commits per week? | 0 |
+| Typical commit size | 20kb |
+| How does the project accept contributions? |  not sure  |
+| Does the project have an automated test suite? | yes |
+| Does the project use continuous integration? | yes |
+| Are any legal/licensing steps required to contribute? | no |
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [X] I have installed the software
+- [X] I have run at least one example
+- [X] I have run the test suite
+- [X] The test suite passes
 
 ### Notes/concerns/risks
 
